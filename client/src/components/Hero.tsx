@@ -9,9 +9,13 @@ export default function Hero() {
         <div className="animate-fade-in">
           {/* Professional photo */}
           <img 
-            src="https://images.unsplash.com/photo-1494790108755-2616b612b4d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400" 
+            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400" 
             alt="Ruth Chansa - Développeur Web" 
             className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-8 object-cover shadow-2xl border-4 border-white"
+            onError={(e) => {
+              const img = e.target as HTMLImageElement;
+              img.src = "https://via.placeholder.com/400x400/3B82F6/FFFFFF?text=RC";
+            }}
           />
           
           <div className="text-lg md:text-xl text-gray-600 mb-4">
