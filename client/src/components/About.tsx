@@ -28,7 +28,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-              Salut, je suis Ruth Chansa — Une Développeuse Web avec une Expertise Créative & des Années d'Expérience.
+              Salut, je suis Ruth Chansa — Un Développeur Web avec une Expertise Créative & des Années d'Expérience.
             </h3>
             
             <blockquote className="text-lg text-primary font-medium mb-6 italic border-l-4 border-primary pl-4">

@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center">
           <h3 className="text-2xl font-bold gradient-text mb-4">Ruth Chansa</h3>
-          <p className="text-gray-400 mb-6">Développeuse Web & Ingénieure Logiciel</p>
+          <p className="text-gray-400 mb-6">Développeur Web & Ingénieure Logiciel</p>
           
           <div className="flex justify-center space-x-6 mb-8">
             <a 
