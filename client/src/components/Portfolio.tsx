@@ -15,14 +15,6 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      title: "Application Mobile",
-      category: "mobile",
-      categoryLabel: "Développement Mobile",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      categoryColor: "text-accent"
-    },
-    {
-      id: 3,
       title: "Design UI/UX",
       category: "ui",
       categoryLabel: "Interface Design",
@@ -30,7 +22,7 @@ export default function Portfolio() {
       categoryColor: "text-purple-600"
     },
     {
-      id: 4,
+      id: 3,
       title: "Site Web Corporate",
       category: "web",
       categoryLabel: "Développement Web",
@@ -38,7 +30,7 @@ export default function Portfolio() {
       categoryColor: "text-primary"
     },
     {
-      id: 5,
+      id: 4,
       title: "Plateforme LMS",
       category: "web",
       categoryLabel: "Éducation Digitale",
@@ -46,19 +38,26 @@ export default function Portfolio() {
       categoryColor: "text-primary"
     },
     {
+      id: 5,
+      title: "Dashboard Analytics",
+      category: "web",
+      categoryLabel: "Développement Web",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      categoryColor: "text-primary"
+    },
+    {
       id: 6,
-      title: "App Restaurant",
-      category: "mobile",
-      categoryLabel: "Application Mobile",
-      image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      categoryColor: "text-accent"
+      title: "Interface Admin",
+      category: "ui",
+      categoryLabel: "Interface Design",
+      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      categoryColor: "text-purple-600"
     }
   ];
 
   const filters = [
     { id: "all", label: "Tous" },
     { id: "web", label: "Web" },
-    { id: "mobile", label: "Mobile" },
     { id: "ui", label: "UI/UX" }
   ];
 

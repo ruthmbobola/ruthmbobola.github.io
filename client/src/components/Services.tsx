@@ -10,14 +10,6 @@ export default function Services() {
     },
     {
       id: "02",
-      title: "Applications Mobiles",
-      description: "Développement d'applications mobiles cross-platform pour iOS et Android. Interface utilisateur intuitive et performance optimisée.",
-      icon: "fas fa-mobile-alt",
-      bgColor: "bg-green-100",
-      iconColor: "text-accent"
-    },
-    {
-      id: "03",
       title: "UI/UX Design",
       description: "Conception d'interfaces utilisateur attrayantes et expériences utilisateur optimales. Design centré sur l'utilisateur et les meilleures pratiques.",
       icon: "fas fa-palette",
@@ -25,28 +17,12 @@ export default function Services() {
       iconColor: "text-purple-600"
     },
     {
-      id: "04",
+      id: "03",
       title: "Solutions Backend",
       description: "Développement d'APIs robustes et architecture backend scalable. Gestion de bases de données et sécurité des applications.",
       icon: "fas fa-database",
       bgColor: "bg-red-100",
       iconColor: "text-red-600"
-    },
-    {
-      id: "05",
-      title: "Maintenance & Support",
-      description: "Support technique continu et maintenance préventive de vos applications. Mises à jour régulières et optimisation des performances.",
-      icon: "fas fa-cogs",
-      bgColor: "bg-yellow-100",
-      iconColor: "text-yellow-600"
-    },
-    {
-      id: "06",
-      title: "Consulting Tech",
-      description: "Conseil en stratégie technologique et architecture logicielle. Accompagnement dans vos projets de transformation digitale.",
-      icon: "fas fa-rocket",
-      bgColor: "bg-indigo-100",
-      iconColor: "text-indigo-600"
     }
   ];
 
