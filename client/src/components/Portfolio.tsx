@@ -15,14 +15,6 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      title: "Design UI/UX",
-      category: "ui",
-      categoryLabel: "Interface Design",
-      image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      categoryColor: "text-purple-600"
-    },
-    {
-      id: 3,
       title: "Site Web Corporate",
       category: "web",
       categoryLabel: "Développement Web",
@@ -30,7 +22,7 @@ export default function Portfolio() {
       categoryColor: "text-primary"
     },
     {
-      id: 4,
+      id: 3,
       title: "Plateforme LMS",
       category: "web",
       categoryLabel: "Éducation Digitale",
@@ -38,7 +30,7 @@ export default function Portfolio() {
       categoryColor: "text-primary"
     },
     {
-      id: 5,
+      id: 4,
       title: "Dashboard Analytics",
       category: "web",
       categoryLabel: "Développement Web",
@@ -46,19 +38,27 @@ export default function Portfolio() {
       categoryColor: "text-primary"
     },
     {
+      id: 5,
+      title: "API Backend",
+      category: "backend",
+      categoryLabel: "Solutions Backend",
+      image: "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      categoryColor: "text-red-600"
+    },
+    {
       id: 6,
-      title: "Interface Admin",
-      category: "ui",
-      categoryLabel: "Interface Design",
-      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      categoryColor: "text-purple-600"
+      title: "Base de Données",
+      category: "backend",
+      categoryLabel: "Solutions Backend",
+      image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      categoryColor: "text-red-600"
     }
   ];
 
   const filters = [
     { id: "all", label: "Tous" },
     { id: "web", label: "Web" },
-    { id: "ui", label: "UI/UX" }
+    { id: "backend", label: "Backend" }
   ];
 
   const filteredItems = activeFilter === "all" 

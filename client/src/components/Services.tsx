@@ -10,14 +10,6 @@ export default function Services() {
     },
     {
       id: "02",
-      title: "UI/UX Design",
-      description: "Conception d'interfaces utilisateur attrayantes et expériences utilisateur optimales. Design centré sur l'utilisateur et les meilleures pratiques.",
-      icon: "fas fa-palette",
-      bgColor: "bg-purple-100",
-      iconColor: "text-purple-600"
-    },
-    {
-      id: "03",
       title: "Solutions Backend",
       description: "Développement d'APIs robustes et architecture backend scalable. Gestion de bases de données et sécurité des applications.",
       icon: "fas fa-database",
