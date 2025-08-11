@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-
+import ruth from "@/assets/ruth.jpeg"; // en haut du fichier
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -95,16 +95,16 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-            
+
             <div className="mt-8">
-              <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
-                alt="Ruth Chansa au travail" 
-                className="w-full h-64 object-cover rounded-xl shadow-lg"
+              <img
+                  src={ruth}
+                  alt="Ruth Chansa au travail"
+                  className="w-full h-64 object-cover rounded-xl shadow-lg"
               />
             </div>
           </div>
-          
+
           <div className="animate-slide-up">
             <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-lg">
               <div className="mb-6">
